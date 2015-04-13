@@ -1,0 +1,42 @@
+# Site settings
+title:       쪼랩ZZOLAB
+email:       jd@zzolab.com
+author:      쪼랩
+description: "현직 선생님들이 직접 프로그래밍을 한다면?"
+baseurl:     ""
+url:         "http://blog.zzolab.com"
+
+# Google analytics
+google_analytics: UA-61683487-1
+
+# Optional features
+animated:           false
+show_related_posts: false
+show_post_footers:  false
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname: zzolab
+
+# Social icons
+show_social_icons: false
+github_username:
+stackoverflow_id:
+twitter_username:
+google_plus_id:
+linkedin_username:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Build settings
+markdown:     kramdown
+heightliter:  pygments
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     5
+sass:
+  compressed: true
+gems:
+  - jekyll-sitemap
